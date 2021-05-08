@@ -8,5 +8,7 @@ export const getPuzzle = (req: Request, res: Response) => {
 
   const puzzle = new Puzzle(length, range, type);
 
-  res.send(puzzle.scrambleGenrator());
+  res.json({
+    scramble: puzzle.scrambleGenrator()
+  });
 }
