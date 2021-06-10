@@ -6,7 +6,7 @@
 #### Get item
 
 ```http
-  GET /api/?puzzle=${puzzleType}
+  GET https://api-scramble-generator.herokuapp.com/api?puzzleType=${puzzleType}
 ```
 
 | Parameter | Type     | Description                       |
