@@ -14,7 +14,7 @@
 | `puzzleType`      | `string` | Takes Puzzle Type and returns the a random scramble. |
 
 
-#### Support puzzles are
+#### Supported puzzles are
 2x2 , 3x3 , 4x4 , 5x5 , 6x6 , 7x7
 
   
